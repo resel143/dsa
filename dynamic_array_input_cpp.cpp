@@ -3,6 +3,12 @@
 
 using namespace std;
 
+int countNumberofSubArrayWithSum0(vector<int> arr){
+	cout<< "Array you entered"<<endl;
+	for(int num: arr) cout<<num<<" ";
+}
+
+
 int main(){
 	
 	vector<int> arr;
@@ -13,8 +19,9 @@ int main(){
 		if(cin.peek()=='\n') break;
 	}
 	
-	cout<< "Array you entered"<<endl;
-	for(int num: arr) cout<<num<<" ";
+	
+	
+	countNumberofSubArrayWithSum0(arr);
 	
 	return 0;
 	
